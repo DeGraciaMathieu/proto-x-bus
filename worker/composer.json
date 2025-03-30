@@ -1,0 +1,10 @@
+{
+    "name": "mathieudegracia/worker",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Mathieudegracia\\Worker\\": "src/"
+        }
+    },
+    "require": {}
+}
