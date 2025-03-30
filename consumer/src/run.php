@@ -18,6 +18,7 @@ try {
     $result = $sqsClient->receiveMessage([
         'QueueUrl' => $queueUrl,
         'MaxNumberOfMessages' => 1,
+        'VisibilityTimeout' => 0,
         'WaitTimeSeconds' => 0,
     ]);
 
