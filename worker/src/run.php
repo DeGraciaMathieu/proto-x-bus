@@ -14,19 +14,17 @@ $sqsClient = new SqsClient([
 $game = new Game();
 $game->setName('Dino Crisis 2');
 
-$messageBody = json_encode(['game' => $game->serializeToString()]);
-
 $queueUrl = 'http://sqs.us-east-1.localhost.localstack.cloud:4566/000000000000/testing-queue';
 
 try {
 
     $result = $sqsClient->sendMessage([
         'QueueUrl'    => $queueUrl,
-        'MessageBody' => $messageBody,
+        'MessageBody' => $game->serializeToString(),
     ]);
 
     echo "message sent with id: " . $result->get('MessageId');
-    
+
 } catch (AwsException $e) {
     dump($e->getMessage());
 }
