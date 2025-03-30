@@ -34,6 +34,11 @@ try {
         $gameDeserialized->mergeFromString($message['Body']);
 
         echo 'game found : ' . $gameDeserialized->getName() . PHP_EOL;
+
+        $sqsClient->deleteMessage([
+            'QueueUrl' => $queueUrl,
+            'ReceiptHandle' => $message['ReceiptHandle'],
+        ]);
     }
 
 } catch (AwsException $e) {
