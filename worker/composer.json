@@ -3,11 +3,13 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Mathieudegracia\\Worker\\": "src/"
+            "Mathieudegracia\\Worker\\": "src/",
+            "": "Protos/"
         }
     },
     "require": {
-        "mathieudegracia/proto": "dev-main"
+        "mathieudegracia/proto": "dev-main",
+        "google/protobuf": "^4.30"
     },
     "repositories": {
         "package": {

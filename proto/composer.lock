@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "20744753194b142e5fcdec22a11a8976",
+    "content-hash": "f4d2cdb31183b4d46f2d9e2df4578f54",
     "packages": [
         {
             "name": "google/protobuf",
@@ -49,35 +49,12 @@
                 "source": "https://github.com/protocolbuffers/protobuf-php/tree/v4.30.2"
             },
             "time": "2025-03-26T18:01:50+00:00"
-        },
-        {
-            "name": "mathieudegracia/proto",
-            "version": "dev-main",
-            "dist": {
-                "type": "path",
-                "url": "../proto",
-                "reference": "7b8f8975ff3b9e1a682fc43ab2d11a8e35bd7ec8"
-            },
-            "require": {
-                "google/protobuf": "^4.30"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Mathieudegracia\\Proto\\": "src/"
-                }
-            },
-            "transport-options": {
-                "relative": true
-            }
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "mathieudegracia/proto": 20
-    },
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {},

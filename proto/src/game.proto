@@ -1,0 +1,6 @@
+syntax = "proto3";
+option php_metadata_namespace = "GPBMetadata";
+
+message Game {
+    string name = 1;
+}

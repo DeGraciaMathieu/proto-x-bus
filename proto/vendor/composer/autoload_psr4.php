@@ -7,4 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Mathieudegracia\\Proto\\' => array($baseDir . '/src'),
+    'Google\\Protobuf\\' => array($vendorDir . '/google/protobuf/src/Google/Protobuf'),
+    'GPBMetadata\\Google\\Protobuf\\' => array($vendorDir . '/google/protobuf/src/GPBMetadata/Google/Protobuf'),
 );

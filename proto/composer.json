@@ -6,7 +6,9 @@
             "Mathieudegracia\\Proto\\": "src/"
         }
     },
-    "require": {},
+    "require": {
+        "google/protobuf": "^4.30"
+    },
     "repositories": {
         "package": {
             "type": "path",
