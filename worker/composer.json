@@ -8,8 +8,8 @@
         }
     },
     "require": {
-        "mathieudegracia/proto": "dev-main",
-        "google/protobuf": "^4.30"
+        "google/protobuf": "^4.30",
+        "aws/aws-sdk-php": "^3.342"
     },
     "repositories": {
         "package": {
