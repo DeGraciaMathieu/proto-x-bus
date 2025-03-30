@@ -16,5 +16,8 @@
             "type": "path",
             "url": "../proto"
         }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^7.2"
     }
 }
