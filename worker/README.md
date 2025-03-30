@@ -1,7 +1,7 @@
 ## Worker
 
 ```
-protoc --proto_path=../proto/src --php_out=src/Protos game.proto
+protoc --proto_path=../proto/ --php_out=Protos game.proto
 ```
 
 ```
