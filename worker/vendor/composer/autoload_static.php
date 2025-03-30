@@ -10,6 +10,7 @@ class ComposerStaticInit1f85c398fe4b164048f0c0b3d3fbdff4
         'M' => 
         array (
             'Mathieudegracia\\Worker\\' => 23,
+            'Mathieudegracia\\Proto\\' => 22,
         ),
     );
 
@@ -17,6 +18,10 @@ class ComposerStaticInit1f85c398fe4b164048f0c0b3d3fbdff4
         'Mathieudegracia\\Worker\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'Mathieudegracia\\Proto\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mathieudegracia/proto/src',
         ),
     );
 

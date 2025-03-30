@@ -1,0 +1,27 @@
+{
+    "packages": [
+        {
+            "name": "mathieudegracia/proto",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "../proto",
+                "reference": "e472367c6a9f9e3cd03971c6b6e3b9b86ad92d10"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Mathieudegracia\\Proto\\": "src/"
+                }
+            },
+            "transport-options": {
+                "relative": true
+            },
+            "install-path": "../mathieudegracia/proto"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

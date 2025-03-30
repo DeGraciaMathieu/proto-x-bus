@@ -1,0 +1,39 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9b23700d9e6a758ec85bc6101f5e9a59",
+    "packages": [
+        {
+            "name": "mathieudegracia/proto",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "../proto",
+                "reference": "e472367c6a9f9e3cd03971c6b6e3b9b86ad92d10"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mathieudegracia\\Proto\\": "src/"
+                }
+            },
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "mathieudegracia/proto": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

@@ -6,5 +6,11 @@
             "Mathieudegracia\\Proto\\": "src/"
         }
     },
-    "require": {}
+    "require": {},
+    "repositories": {
+        "package": {
+            "type": "path",
+            "url": "."
+        }
+    }
 }

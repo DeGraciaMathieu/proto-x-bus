@@ -6,5 +6,13 @@
             "Mathieudegracia\\Worker\\": "src/"
         }
     },
-    "require": {}
+    "require": {
+        "mathieudegracia/proto": "dev-main"
+    },
+    "repositories": {
+        "package": {
+            "type": "path",
+            "url": "../proto"
+        }
+    }
 }
